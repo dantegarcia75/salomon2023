@@ -18,6 +18,7 @@ header {
     background:#003F8E; /*azul NFL*/
     /* background-image: url("/imagenes/foto_juampi.jpg"); */
     background:#01BDED; /*celeste peronista*/
+    background:#4b0082; /* indigo */
     /* background-repeat: no-repeat; */
     /* background-position: center top; */
     /* background-size: contain; */
@@ -39,6 +40,8 @@ nav {
     background:red; 
     background: black;
     background:#005DA9; /*azul peronista*/
+    background:pink;
+    background:#FF99CC; /*rosa corel*/
     padding: 0px;
     display: flex;
     justify-content: center;
@@ -56,6 +59,7 @@ section {
     background-color: #202020;
     background-color: #141414;
     background:#01BDED; /*celeste peronista*/
+
     background-color: #f5f5f5; /*gris muy suave*/
     background-color: rgb(245, 245, 245); /*gris muy suave*/
     
@@ -74,6 +78,7 @@ section h2, li {
     /* color:#aaabca; 
     color:black; */
     color: yellow;
+    color:#94d119; /* verde para el indigo*/
     margin: 3px 20px; 
 }
 
@@ -83,6 +88,7 @@ section h4 {
     font-family: 'Righteous', cursive;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
+    color: orange;
     margin: 20px; /* en 10px originalmente, y p esta en 50px*/
     /* font-size: 25px; */
 }
@@ -97,9 +103,11 @@ article {
     background-color: #ffffff;/*fondo blanco puro*/
     background:#005DA9; /*azul peronista*/
     background:#01BDED; /*celeste peronista*/
+    background:indigo;
     color: #000000;
     color: white;
     color: black;
+    color:white;
     /* background-color: #F8F9FA; */
 
     margin: 0 auto; /*  centrar el contenedor article*/
@@ -133,6 +141,7 @@ footer{
     background:rgb(1, 189, 237); /*celeste peronista*/
     background:#005DA9; /*azul peronista*/
     background:rgb(1, 189, 237); /*celeste peronista*/
+    background:indigo;
     /* justify-content: space-between; */
     text-align: center;
     /* vertical-align: middle; */
@@ -152,7 +161,10 @@ footer a:hover{
 
 .footer-fondo{
     background-color: #005DA9; /*azul peronista*/;
+    background-color: pink;
+    background:#FF99CC; /*rosa corel*/
     color: white;
+    color:black;
 }    
 .modo-boton{
     /* flex-direction: column; */
@@ -253,11 +265,13 @@ footer a:hover{
 .nav-enlace {
     display: inline-block;
     color: white;
+    color:black;
     padding: 10px 20px;
     text-decoration: none; 
 }
 .nav-enlace:hover { /* cuando pasa el mouse cambia el color*/
     color: rgb(1, 189, 243);
+    color:indigo;
 }
 
 
