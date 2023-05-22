@@ -19,6 +19,7 @@ header {
     /* background-image: url("/imagenes/foto_juampi.jpg"); */
     background:#01BDED; /*celeste peronista*/
     background:#4b0082; /* indigo */
+    background:#6f00ff; /* electric indigo juampi */
     /* background-repeat: no-repeat; */
     /* background-position: center top; */
     /* background-size: contain; */
@@ -104,6 +105,7 @@ article {
     background:#005DA9; /*azul peronista*/
     background:#01BDED; /*celeste peronista*/
     background:indigo;
+    background:#6f00ff; /* electric indigo juampi */
     color: #000000;
     color: white;
     color: black;
@@ -142,6 +144,7 @@ footer{
     background:#005DA9; /*azul peronista*/
     background:rgb(1, 189, 237); /*celeste peronista*/
     background:indigo;
+    background:#6f00ff; /* electric indigo juampi */
     /* justify-content: space-between; */
     text-align: center;
     /* vertical-align: middle; */
@@ -290,7 +293,7 @@ footer a:hover{
         margin: 0 30px 20px;
     }
     .foto-carnet img {
-        height: 250px;
+        height: 290px;
     }
    .foto-carnet2 img {
         height: 150px;
@@ -311,7 +314,7 @@ footer a:hover{
     }
     .foto-carnet img {
         /* justify-content: center; */
-        height: 200px;
+        height: 250px; /* antes era 200 */
     }
 }
 
@@ -324,7 +327,7 @@ footer a:hover{
     
     .foto-carnet img {
         /* justify-content: center; */
-        height: 150px;
+        height: 200px; /* antes 200 px*/
     }
    
     .foto-carnet2 img {
