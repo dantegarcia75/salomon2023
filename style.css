@@ -117,9 +117,13 @@ article {
 .arti-noticias {
     background:#01BDED; /*celeste peronista*/
     text-align: center;
+    
 }
 .arti-noticias h2{
     color: white;
+}
+.arti-noticias p{
+    color: black;
 }
 
 .ultimo-arti {
@@ -128,6 +132,7 @@ article {
 }
 .ultimo-arti p {
     text-align: center;
+  
 }
 
 .tamanio {
