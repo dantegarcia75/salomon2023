@@ -12,11 +12,7 @@ body {
 }
   
 header {
-    
-    background: linear-gradient(to right, #003F8E, black);
-    background:#00152F;
-    background:#003F8E; /*azul NFL*/
-    /* background-image: url("/imagenes/foto_juampi.jpg"); */
+
     background:#01BDED; /*celeste peronista*/
     background:#4b0082; /* indigo */
     background:#6f00ff; /* electric indigo juampi */
@@ -29,17 +25,15 @@ header {
     /* background-position: center center; */
     font-family: 'Courier New', Courier, monospace;
     font-family: 'Gotham', Gotham-black;
-    display: flex; /* nueva incorporacion  */
-    justify-content: center; /*nueva incorporacion - el div con la foto y el div con la data centrados*/
-    /* align-items: center; nueva incorporacion */
+    /* display: block;  */
+    /* justify-content: center;  */
+    /* mensaje p arriba - nueva incorporacion - el div con la foto y el div con la data centrados*/
+    /* align-items: center; */
 }
 
 nav {
     background: linear-gradient(to right, #003F8E, black);
-    background:#00152F;
     background:#003F8E; /*azul NFL*/
-    background:red; 
-    background: black;
     background:#005DA9; /*azul peronista*/
     background:pink;
     background:#FF99CC; /*rosa corel*/
@@ -120,6 +114,22 @@ article {
 
 }
 
+.arti-noticias {
+    background:#01BDED; /*celeste peronista*/
+    text-align: center;
+}
+.arti-noticias h2{
+    color: white;
+}
+
+.ultimo-arti {
+    background: red;
+    text-align: center;
+}
+.ultimo-arti p {
+    text-align: center;
+}
+
 .tamanio {
     color: red; 
     text-align: center; /* alinea tanto el texto como la foto */
@@ -146,7 +156,7 @@ footer{
     background:indigo;
     background:#6f00ff; /* electric indigo juampi */
     /* justify-content: space-between; */
-    text-align: center;
+    text-align: center; /* como en footer*/
     /* vertical-align: middle; */
     /* justify-content: center; */
     
@@ -198,9 +208,19 @@ footer a:hover{
 }
 
 
+
+.noti {
+
+    background-color: #01BDED;
+    text-align: center;
+
+} 
+    
 .foto-carnet{
-    display: flex;
+    /* display: flex; */
+    /* display:block; */
     /* margin: 15px 1px 5px 1px; */
+    text-align: center;
 
 }
 
@@ -275,6 +295,7 @@ footer a:hover{
 .nav-enlace:hover { /* cuando pasa el mouse cambia el color*/
     color: rgb(1, 189, 243);
     color:indigo;
+    color:white;
 }
 
 
