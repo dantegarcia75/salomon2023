@@ -91,6 +91,7 @@ section p{
     margin: 0 50px 20px; /* el del medio es margen de izquiera y derecha*/
     font-size: 20px; /* 18px se considera normal para p */
     text-align:justify;
+    /* text-indent: 70px; */
 }
 
 article {
@@ -124,6 +125,12 @@ article {
 }
 .arti-noticias p{
     color: black;
+    text-indent: 25px;
+}
+
+/*sangria biografia*/
+.arti-sangria p{
+    text-indent: 25px;
 }
 
 .ultimo-arti {
@@ -143,6 +150,8 @@ article {
 .espaciado{    
     line-height: 1.6; /* 1.6 es el interlineado recomendado*/ 
 }
+
+
 
 footer{
     /* background-color: rgb(4, 4, 58); */
