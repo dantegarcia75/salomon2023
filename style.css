@@ -133,6 +133,12 @@ article {
     text-indent: 25px;
 }
 
+.arti-corte p{
+
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
 .ultimo-arti {
     background: red;
     text-align: center;
