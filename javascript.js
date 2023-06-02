@@ -1,3 +1,9 @@
+// activar muscia con cualquier click en la pagina
+function PlayAudio() {
+  document.getElementById("musica1").play();
+}
+
+
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
